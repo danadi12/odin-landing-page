@@ -17,8 +17,8 @@ a {
 
 .landing {
   background-color: #1f2937;
-  padding: 0 200px 0 200px;
-  height: 70vh;
+  padding: 10px 200px 0 200px;
+  min-height: 70vh;
 }
 
 .logo {
@@ -80,4 +80,42 @@ a {
 
 .landing--button a {
   color: white;
+}
+
+.info {
+  padding-top: 45px;
+  min-height: 50vh;
+}
+
+.info--h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info--container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info--card {
+  margin-top: 60px;
+  border: 2px solid blue;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.info--card--p {
+  width: 170px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.info--content {
+  display: flex;
+  flex-direction: column;
 }
